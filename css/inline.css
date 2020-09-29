@@ -1,0 +1,47 @@
+/* """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Stylesheet for the HTML and CSS Course From Great IT Courses
+Author: Richard O'Donnell
+Date: Monday, September 28, 2020
+File name: inline.css
+Description: This is the style sheet related to the navigation menu of the 
+HTML and CSS course by Great IT Courses. 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+nav#main-navigation {
+    background: #000;
+    padding: 10px 20px;
+  }
+
+  nav#main-navigation ul{
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+  }
+  
+  nav#main-navigation a {
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    padding: .25em;
+    border-radius: .5em;
+    transition: border 350ms linear;
+  }
+
+  nav#main-navigation a:hover, 
+  nav#main-navigation a:focus
+  {
+    border: .2em solid #e31b23;
+  }
+
+  nav#main-navigation a:active{
+    background-color: #e31b23;
+    color: #fff;
+  }
+
+  .current-nav-button{
+    border: .2em solid #e31b23;
+  }
+
+  nav#main-navigation li{
+    display: inline;
+  }

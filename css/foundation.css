@@ -1,0 +1,102 @@
+/* """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Stylesheet for the HTML and CSS Course From Great IT Courses
+Author: Richard O'Donnell
+Date and time: Monday, September 28, 2020
+File name: foundation.css
+Description: This is one of the stylesheets for the html css course.
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" */
+
+/* ========================================================================
+    Part 1- Reset
+==========================================================================*/
+/* Reset all distances */
+
+html {
+  overflow-y: scroll;
+}
+
+body,
+div,
+header,
+nav,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+code,
+ul,
+ol,
+li,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+/* ========================================================================
+    Part 2- Restoration
+==========================================================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol, 
+li {
+  margin-bottom: 1em;
+}
+
+nav ul {
+  padding: 0;
+  margin: auto;
+}
+
+ul,
+ol {
+  margin-left: 2em;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul,
+ul li {
+  margin-bottom: 0;
+}
+
+blockquote {
+  margin: 1em 2em;
+}
+
+/* ========================================================================
+    Part 3 - Font Header Size
+==========================================================================*/
+
+h1 {font-size: 160%;}
+h2 {font-size: 150%;}
+h3 {font-size: 140%;}
+h4 {font-size: 130%;}
+h5 {font-size: 120%;}
+h6 {font-size: 110%;}
+h1, h2, h3, h4, h5, h6{ 
+    font-family: "Times New Roman", Times, Georgia, serif;
+    font-weight: bold;
+}

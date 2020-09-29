@@ -1,0 +1,11 @@
+/* """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Stylesheet for the HTML and CSS Course From Great IT Courses
+Author: Richard O'Donnell
+Date and time: Monday, September 28, 2020
+File name: central.css
+Description: This is the central stylesheet for the html css course.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+@import url(foundation.css);
+@import url(screen.css);
+@import url(inline.css);

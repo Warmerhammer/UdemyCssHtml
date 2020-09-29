@@ -1,0 +1,148 @@
+/* """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Stylesheet for the HTML and CSS Course From Great IT Courses
+Author: Richard O'Donnell
+Date and time: Monday, September 28, 2020
+File name: screen.css
+Description: This is one of the stylesheets for the html css course.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+/* Main Sections */
+
+body {
+  background: #8c8c8c url(../dot-grid.png) repeat scroll left top;
+  color: #fff;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 87.5%;
+  line-height: 1.6;
+}
+
+div#wrapper {
+  color: #000;
+  width: 750px;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+header {
+  background-color: #e31b23;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+header h1 {
+  font-family: "Pacifico", cursive;
+  margin-bottom: 0;
+}
+
+header p {
+  margin: 0;
+}
+
+div#main {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+footer {
+  border-top: 1px solid #8c8c8c;
+  padding: 10px 20px;
+  font-size: 80%;
+  background: rgba(255, 255, 255, 0.75)
+}
+
+footer p {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+/* Styles related to the different states of hyperlinks */
+a:link {
+  color: #de480e;
+}
+
+a:visited {
+  color: #4AB469;
+}
+
+a:hover {
+  color: #99cd2c;
+}
+
+a:focus {
+  color: #99cd2c;
+}
+
+a:active {
+  background-color: #000;
+  color: #fff;
+}
+
+
+/* Custom Classes */
+
+.div-highlight{
+    background-color: #cae3f9;
+    padding: 10px;
+    border-radius: .5em;
+}
+
+/* Styles related to the contact form */
+
+form#contact-form{
+  background-color: #cae3f9;
+  padding: 1em;
+  width: 350px;
+}
+
+form#contact-form div#form-info{
+  font-size: 70%;
+  background-color: #a7d0f5;
+  padding: .5em;
+}
+
+form#contact-form div#form-info p{
+  vertical-align: middle;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+
+form#contact-form label{
+  display: block;
+}
+
+form#contact-form > div{
+  margin-bottom: 0.5em;
+}
+
+form#contact-form input:focus,
+form#contact-form textarea:focus{
+  background-color: #eee;
+}
+
+form#contact-form textarea{
+  max-width: 100%;
+  min-width: 7em;
+}
+
+/* table styles in privacy-policy.html */
+ table{
+   background-color: #cae3f9;
+   border-top: 1px solid #000;
+   border-bottom: 1px solid #000;
+   border-collapse: collapse;
+ }
+
+ table thead,
+ table tfoot{
+   background-color: #a7d0f5;
+   font-size: 80%;
+ }
+
+ table th,
+ table td{
+   border: 1px solid #000;
+   padding: .5em;
+   text-align: center;
+ }
+
